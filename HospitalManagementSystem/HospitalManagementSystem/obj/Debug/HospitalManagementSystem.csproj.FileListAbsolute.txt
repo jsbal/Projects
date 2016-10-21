@@ -6,3 +6,8 @@ F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalMa
 F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.pdb
 F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
 F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.dll
+D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.pdb
+D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
+D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
