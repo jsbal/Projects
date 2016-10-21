@@ -1,0 +1,4 @@
+D:\backup\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.dll
+D:\backup\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.pdb
+D:\backup\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Release\HospitalManagementSystem.dll
+D:\backup\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Release\HospitalManagementSystem.pdb

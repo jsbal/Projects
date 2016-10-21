@@ -1,0 +1,8 @@
+F:\MyStuff\.Net Project\Projects under devp\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.dll
+F:\MyStuff\.Net Project\Projects under devp\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.pdb
+F:\MyStuff\.Net Project\Projects under devp\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
+F:\MyStuff\.Net Project\Projects under devp\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.dll
+F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.pdb
+F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
+F:\MyStuff\.Net Project\Projects Completed\Hospital Management System\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
