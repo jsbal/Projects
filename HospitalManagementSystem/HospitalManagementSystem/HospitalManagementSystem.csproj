@@ -116,13 +116,6 @@
       <DependentUpon>doctors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Entity\DBConnection.cs" />
-    <Compile Include="Entity\eConsultation.cs" />
-    <Compile Include="Entity\eDoctor.cs" />
-    <Compile Include="Entity\eLogin.cs" />
-    <Compile Include="Entity\ePatientDetails.cs" />
-    <Compile Include="Entity\ePatientWard.cs" />
-    <Compile Include="Entity\eStaff.cs" />
-    <Compile Include="Entity\eWard.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
