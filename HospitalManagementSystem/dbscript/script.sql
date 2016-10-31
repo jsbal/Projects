@@ -1,4 +1,4 @@
-USE [HospitalMgmtSystem]
+
 GO
 /****** Object:  Table [dbo].[tblBilling]    Script Date: 25-03-2015 23:52:58 ******/
 SET ANSI_NULLS ON
