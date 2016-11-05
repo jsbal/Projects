@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Reflection;
 
-namespace HospitalManagementSystem
+namespace HospitalManagementSystem.BAL
 {
     public class DBConnection
     {
@@ -15,7 +15,7 @@ namespace HospitalManagementSystem
 
         public SqlConnection setDBConnection()
         {
-            strcon = ConfigurationManager.ConnectionStrings["Connection String"].ToString();
+            strcon = ConfigurationManager.ConnectionStrings["SqlConn"].ToString();
             conDB = new SqlConnection(strcon);
             conDB.Open();
             return conDB;

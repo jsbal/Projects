@@ -11,3 +11,8 @@ D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSyst
 D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
 D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
 D:\MyStuff\ProjectClass\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+D:\github\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache
+D:\github\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.dll
+D:\github\Projects\HospitalManagementSystem\HospitalManagementSystem\obj\Debug\HospitalManagementSystem.pdb
+D:\github\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.dll
+D:\github\Projects\HospitalManagementSystem\HospitalManagementSystem\bin\HospitalManagementSystem.pdb

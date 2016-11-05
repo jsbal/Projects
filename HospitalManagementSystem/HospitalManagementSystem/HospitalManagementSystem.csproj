@@ -64,7 +64,66 @@
     <Content Include="consultation.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="doctors.aspx" />
+    <Content Include="HospitalManagementSystem.Publish.xml" />
     <Content Include="logo.png" />
+    <Content Include="obj\Debug\HospitalManagementSystem.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\HospitalManagementSystem.dll" />
+    <Content Include="obj\Debug\HospitalManagementSystem.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\HospitalManagementSystem.dll" />
+    <Content Include="obj\Debug\Package\PackageTmp\bin\HospitalManagementSystem.pdb" />
+    <Content Include="obj\Debug\Package\PackageTmp\consultation.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\Default.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\doctors.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\Global.asax" />
+    <Content Include="obj\Debug\Package\PackageTmp\logo.png" />
+    <Content Include="obj\Debug\Package\PackageTmp\PatientDetails.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\patientWard.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\analytics.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\counter.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\greenbtn.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\home.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\hospital_management_system.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\jquery-1.3.1.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\jquery-1.3.2.min.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\jquery.pngFix.pack.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\menu-left.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\menu-right.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\pluginpage.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\script.js" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\separator.jpg" />
+    <Content Include="obj\Debug\Package\PackageTmp\resource_files\slider.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\staff.aspx" />
+    <Content Include="obj\Debug\Package\PackageTmp\Styles\Site.css" />
+    <Content Include="obj\Debug\Package\PackageTmp\ward.aspx" />
+    <Content Include="obj\Release\HospitalManagementSystem.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Release\HospitalManagementSystem.dll" />
+    <Content Include="obj\Release\HospitalManagementSystem.pdb" />
+    <Content Include="obj\Release\Package\PackageTmp\bin\HospitalManagementSystem.dll" />
+    <Content Include="obj\Release\Package\PackageTmp\consultation.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Default.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\doctors.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Global.asax" />
+    <Content Include="obj\Release\Package\PackageTmp\logo.png" />
+    <Content Include="obj\Release\Package\PackageTmp\PatientDetails.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\patientWard.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\analytics.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\counter.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\greenbtn.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\home.css" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\hospital_management_system.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\jquery-1.3.1.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\jquery-1.3.2.min.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\jquery.pngFix.pack.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\menu-left.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\menu-right.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\pluginpage.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\script.js" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\separator.jpg" />
+    <Content Include="obj\Release\Package\PackageTmp\resource_files\slider.css" />
+    <Content Include="obj\Release\Package\PackageTmp\staff.aspx" />
+    <Content Include="obj\Release\Package\PackageTmp\Styles\Site.css" />
+    <Content Include="obj\Release\Package\PackageTmp\ward.aspx" />
+    <Content Include="obj\Release\_WPPLastBuildInfo.txt" />
     <Content Include="PatientDetails.aspx" />
     <Content Include="patientWard.aspx" />
     <Content Include="resource_files\analytics.js" />
@@ -116,6 +175,8 @@
       <DependentUpon>doctors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Entity\DBConnection.cs" />
+    <Compile Include="Entity\edefault.cs" />
+    <Compile Include="Entity\eDoctors.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -141,6 +202,7 @@
       <DependentUpon>patientWard.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlAd.cs" />
     <Compile Include="staff.aspx.cs">
       <DependentUpon>staff.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -158,9 +220,22 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\HospitalManagementSystem.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\Package\PackageTmp\Main.Master" />
+    <Content Include="obj\Debug\Package\PackageTmp\Web.config" />
+    <Content Include="obj\Debug\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Debug\TransformWebConfig\transformed\Web.config" />
+    <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Release\Package\PackageTmp\Main.Master" />
+    <Content Include="obj\Release\Package\PackageTmp\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\assist\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\original\Web.config" />
+    <Content Include="obj\Release\TransformWebConfig\transformed\Web.config" />
     <None Include="Properties\PublishProfiles\Profile1.pubxml" />
     <None Include="resource_files\captcha.php" />
     <None Include="resource_files\valid-xhtml10" />
