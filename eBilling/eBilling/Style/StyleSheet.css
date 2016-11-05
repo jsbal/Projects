@@ -1,0 +1,94 @@
+﻿.lblHeading
+{
+    color: #000000;
+    font-family: Aharoni;
+    font-size: large;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+}
+.lblNormal
+{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+.lblHighlighted
+{
+    color: #990000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.txtNormal
+{
+    border: 1px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    width: 160px;
+}
+.linkButton
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+.lblMandatory
+{
+    color:Red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+.requiredFldValidator
+{
+    color:Red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    font-weight: normal;
+}
+
+.gvMain
+{
+    background-color:White;
+    border-color:#999999;
+    border-width:1px;
+    font-family:Calibri Light;
+    font-size:small;
+}
+.gvAlternateRow
+{
+    background-color:#DCDCDC;
+}
+.gvHeader
+{
+    background-color:#000084;
+    font-weight:bold;
+    color:White;
+}
+.gvPager
+{
+    background-color:#999999;
+    color:Black;
+}
+.gvRow
+{
+    background-color:#EEEEEE;
+    color:Black;
+}
+.gvSelectedRow
+{
+    background-color:#008A8C;
+    font-weight:bold;
+    color:White;
+}
+   .txtSearch
+{
+    border-style: none;
+    border-color: #205597;
+    font-family: Arial;
+    font-size: small;
+    font-weight: normal;
+    color: #333333;
+}
+    

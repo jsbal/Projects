@@ -1,0 +1,147 @@
+.mf * {
+	outline:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	border:none;
+	padding:0;
+	margin:0
+}
+.mf.load {
+	background:transparent;
+}
+.mf div.loader{
+	position:absolute;
+	text-align:center;
+	z-index:110;
+	margin:1em auto;
+	top:55%;
+	width:100%;
+}
+.mf div.caption {
+	position:absolute;
+	text-align:center;
+	z-index:98;
+	margin:1em auto;
+	top:200px;
+	width:98%;
+	border:0px solid #ff0000;
+	font-size:12px;
+	font-weight:500;
+        display:none;
+}
+.mf div.MooFlowNav{
+	position:absolute;
+	z-index:1000;
+	text-align:center;
+	width:100%;
+	top:270px;
+	left:60px;
+	font-size:1px;
+	line-height:1px;
+	width:100%;
+	background: url(/images/marketing/design/takeaTourBTN.png) left top no-repeat;
+	height:43px;
+	border:0px solid #ff0000;
+}
+
+.mf div.autoPlayCon{
+	float:left;
+	width:10%;
+	padding-left:3%;
+	height:24px;
+
+
+}
+.mf a.play {
+	width:340px;
+	height:40px;
+	float:left;
+	cursor:pointer;
+	border:0px solid #ff00ff;
+
+}
+
+ .mf a.stop{
+	width:0px;
+	height:0px;
+	float:left;
+}
+
+.mf a.play{background:transparent;}
+.mf a.stop{background:transparent;}
+
+.mf div.resizeCon{
+	float:right;
+	width:10%;
+	padding-right:3%;
+	height:24px;
+}
+.mf a.resize{
+	width:34px;
+	height:24px;
+	float:right;
+	cursor:pointer;
+	background:transparent;
+}
+.mf div.sliderCon{
+	margin-top:5px;
+	float:left;
+	width:74%;
+}
+.mf div.slider{
+	background:transparent;
+	height:16px;
+	position:relative;
+	text-align:left;
+	float:left;
+}
+.mf div.knob{
+	display:none;
+}
+.mf div.knobleft{
+	display:none;
+}
+.mf a.sliderNext{background:transparent;}
+.mf a.sliderPrev{background:transparent;}
+.mf a.sliderNext, a.sliderPrev{
+	text-decoration:none;
+	width:0px;
+	height:0px;
+}
+/* MooFlowViewer */
+.mf a.show {
+	position:absolute;
+	margin-left:-16px;
+	width:0px;
+	height:0px;
+	top:70%;
+	left:50%;
+	z-index:100;
+	cursor:pointer;
+}
+.mf a.show.image{
+	background:url(skin/open_image.png) no-repeat 50%;
+}
+.mf a.show.viewerload{
+	background:transparent;
+}
+.mf a.show.link{
+	background:transparent;
+}
+
+.mf div.tooltip{
+	background:transparent;
+	width:262px;
+	margin-left:-151px;
+	height:70px;
+	padding:20px;
+	position:absolute;
+	z-index:101;
+	top:0;
+	left:50%;
+	text-align:center;
+}
+
+#MooFlow	{
+background-color:transparent;
+}

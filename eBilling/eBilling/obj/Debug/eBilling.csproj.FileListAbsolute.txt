@@ -1,0 +1,9 @@
+F:\MyStuff\.Net Project\Projects under devp\E-Billing System\eBilling\eBilling\bin\eBilling.dll
+F:\MyStuff\.Net Project\Projects under devp\E-Billing System\eBilling\eBilling\bin\eBilling.pdb
+F:\MyStuff\.Net Project\Projects under devp\E-Billing System\eBilling\eBilling\obj\Debug\eBilling.dll
+F:\MyStuff\.Net Project\Projects under devp\E-Billing System\eBilling\eBilling\obj\Debug\eBilling.pdb
+F:\MyStuff\.Net Project\Projects Completed\E-Billing System\eBilling\eBilling\bin\eBilling.dll
+F:\MyStuff\.Net Project\Projects Completed\E-Billing System\eBilling\eBilling\bin\eBilling.pdb
+F:\MyStuff\.Net Project\Projects Completed\E-Billing System\eBilling\eBilling\obj\Debug\eBilling.csprojResolveAssemblyReference.cache
+F:\MyStuff\.Net Project\Projects Completed\E-Billing System\eBilling\eBilling\obj\Debug\eBilling.dll
+F:\MyStuff\.Net Project\Projects Completed\E-Billing System\eBilling\eBilling\obj\Debug\eBilling.pdb
