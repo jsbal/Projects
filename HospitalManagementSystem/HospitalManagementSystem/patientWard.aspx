@@ -79,7 +79,9 @@
                 <asp:Label ID="Label5" runat="server" Text="No. of Beds Available"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtNoOfBedsAvailable" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:ListItem>8</asp:ListItem>
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>

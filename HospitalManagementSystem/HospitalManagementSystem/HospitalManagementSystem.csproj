@@ -85,7 +85,9 @@
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="ward.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -116,6 +118,9 @@
       <DependentUpon>doctors.aspx</DependentUpon>
     </Compile>
     <Compile Include="Entity\DBConnection.cs" />
+    <Compile Include="Entity\eConsultation.cs" />
+    <Compile Include="Entity\ePatientDetails.cs" />
+    <Compile Include="Entity\ePatientWard.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
