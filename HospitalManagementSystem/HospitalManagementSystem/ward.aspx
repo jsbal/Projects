@@ -96,7 +96,7 @@
             <td style="margin-left: 120px" width="25%">
                 &nbsp;</td>
             <td width="25%">
-                <asp:Button ID="btnSave" runat="server" Text="Save" />
+                <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click" />
             </td>
             <td width="25%">
                 &nbsp;</td>

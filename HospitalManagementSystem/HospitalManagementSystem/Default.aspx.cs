@@ -23,7 +23,7 @@ namespace HospitalManagementSystem
             objdb = new DBConnection();
             objdeflt=new edefault();
 
-            objdeflt.UserPassword = txtPassword.Value;
+            objdeflt.Pass = txtPassword.Value;
             objdeflt.UserName = txtUserName.Text;
 
             
@@ -33,10 +33,10 @@ namespace HospitalManagementSystem
             if (objDR.HasRows)
             {
                 objDR.Read();
-                if (txtPassword.Value == objDR["UserPassword"].ToString())
+                if (txtPassword.Value == objDR["Pass"].ToString())
                 {
                     Session["UserId"] = objDR["UserId"].ToString();
-                    Response.Redirect("");
+                    Response.Redirect("doctors.aspx");
                 }
                 else
                 {

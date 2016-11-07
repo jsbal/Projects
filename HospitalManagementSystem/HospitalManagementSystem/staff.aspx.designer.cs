@@ -76,13 +76,13 @@ namespace HospitalManagementSystem {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
-        /// txtGender control.
+        /// ddlGender control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtGender;
+        protected global::System.Web.UI.WebControls.DropDownList ddlGender;
         
         /// <summary>
         /// Label6 control.
@@ -94,13 +94,13 @@ namespace HospitalManagementSystem {
         protected global::System.Web.UI.WebControls.Label Label6;
         
         /// <summary>
-        /// txtState control.
+        /// ddlState control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtState;
+        protected global::System.Web.UI.WebControls.DropDownList ddlState;
         
         /// <summary>
         /// Label7 control.
@@ -112,13 +112,13 @@ namespace HospitalManagementSystem {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// txtCity control.
+        /// ddlCity control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtCity;
+        protected global::System.Web.UI.WebControls.DropDownList ddlCity;
         
         /// <summary>
         /// Label8 control.

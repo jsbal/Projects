@@ -72,7 +72,8 @@
                 <asp:Label ID="Label5" runat="server" Text="Gender"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtGender" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlGender" runat="server">
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>
@@ -84,7 +85,8 @@
                 <asp:Label ID="Label6" runat="server" Text="State"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtState" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlState" runat="server">
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>
@@ -96,7 +98,8 @@
                 <asp:Label ID="Label7" runat="server" Text="City"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtCity" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlCity" runat="server">
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>
@@ -167,7 +170,7 @@
             <td style="margin-left: 120px" width="25%">
                 &nbsp;</td>
             <td width="25%">
-                <asp:Button ID="btnSave" runat="server" Text="Save" onclick="btnSave_Click" />
+                <asp:Button ID="btnSave" runat="server" Text="Save" OnClick="btnSave_Click"  />
             </td>
             <td width="25%">
                 &nbsp;</td>

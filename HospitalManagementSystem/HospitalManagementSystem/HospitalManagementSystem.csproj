@@ -177,6 +177,8 @@
     <Compile Include="Entity\DBConnection.cs" />
     <Compile Include="Entity\edefault.cs" />
     <Compile Include="Entity\eDoctors.cs" />
+    <Compile Include="Entity\eStaff.cs" />
+    <Compile Include="Entity\eWard.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
