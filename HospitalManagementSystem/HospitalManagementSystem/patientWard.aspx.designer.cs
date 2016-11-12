@@ -22,13 +22,13 @@ namespace HospitalManagementSystem {
         protected global::System.Web.UI.WebControls.Label Label7;
         
         /// <summary>
-        /// txtPatientName control.
+        /// ddlPatientName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPatientName;
+        protected global::System.Web.UI.WebControls.DropDownList ddlPatientName;
         
         /// <summary>
         /// Label1 control.
@@ -40,13 +40,13 @@ namespace HospitalManagementSystem {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txtWardNo control.
+        /// ddlWardNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtWardNo;
+        protected global::System.Web.UI.WebControls.DropDownList ddlWardNo;
         
         /// <summary>
         /// Label3 control.

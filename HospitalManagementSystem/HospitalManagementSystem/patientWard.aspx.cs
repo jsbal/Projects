@@ -15,6 +15,36 @@ namespace HospitalManagementSystem
         DBConnection objConn;
         DataTable dt;
         ePatientWard objPD;
+        DataSet ds;
+         protected void Page_Load(object sender, EventArgs e)
+        {
+
+            if (!IsPostBack)
+            {
+                objConn = new DBConnection();
+                objPD = new ePatientWard();
+                dt = new DataTable();
+                ds = new DataSet();
+                objPD.Aflag = 2;
+                ds = objConn.executeDataset(objPD, "[PatientWard");
+                dt = ds.Tables[0];
+                if (dt.Rows.Count > 0)
+                {
+
+                    dt = ds.Tables[0];
+                    ddlPatientName.DataSource = dt;
+                    ddlPatientName.DataValueField = "PatientId";
+                    ddlPatientName.DataTextField = "PaitentName";
+                    ddlPatientName.DataBind();
+                    ddlPatientName.Items.Insert(0, new ListItem("---Select---", "-1"));
+
+                    dt = ds.Tables[1];
+                    ddlWardNo.DataSource = dt;
+                    ddlWardNo.DataValueField = "WardId";
+                   ddlWardNo.DataTextField = "WardName";
+                    ddlWardNo.DataBind();
+                    ddlWardNo.Items.Insert(0, new ListItem("---Select---", "-1"));
+       
 
 
 
@@ -24,12 +54,10 @@ namespace HospitalManagementSystem
             dt = new DataTable();
             objPD = new ePatientWard();
 
-            objPD.WardId = Convert.ToInt32(ViewState["PatientName"]);
-            objPD.WardNo = txtWardNo.Text;
-            objPD.WardName = txtWardName.Text;
-            objPD.WardType = txtWardType.Text;
-            objPD.NoOfBed = Convert.ToInt32(ViewState["NoOfBedsAvailable"]);
-            objPD.BedCharges = Convert.ToInt32(ViewState["PerDayCharges"]);
+            objPD.PatientId = Convert.ToInt32(ddlPatientName.SelectedValue);
+            objPD.WardId = Convert.ToInt32(ddlWardNo.SelectedValue);
+            objPD.BedNo = ddlWardNo.SelectedValue;
+           
 
             dt = objConn.executeDataTable(objPD,  "PatientWard");
 
