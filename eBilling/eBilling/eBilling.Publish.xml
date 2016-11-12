@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\bcs\Desktop\.Net Projects\eBilling" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Images/mootools-beta-1.2b2.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/professional_invoicing.png" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/blog_title.png" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/human-resources-management.jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Global.asax" publishTime="03/10/2015 20:02:19" />
+    <file relUrl="Images/twitter_icon.png" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/MooFlow.css" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/jquery.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Web.config" publishTime="05/10/2015 09:19:41" />
+    <file relUrl="Images/ga.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/download (1).jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Images/MooFlow.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/website.css" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/wz_tooltip.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Style/StyleSheet.css" publishTime="03/11/2015 20:53:31" />
+    <file relUrl="Images/images (2).jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Style/calendar.css" publishTime="03/10/2015 20:07:03" />
+    <file relUrl="Images/images (1).jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Store.aspx" publishTime="03/24/2015 20:27:07" />
+    <file relUrl="Scripts/calendar_us.js" publishTime="03/10/2015 20:06:52" />
+    <file relUrl="Images/login_link.jpg" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/signup_button.png" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/images (4).jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Images/acc-tab-bg.jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Images/images (5).jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="bin/eBilling.dll" publishTime="03/24/2015 22:22:53" />
+    <file relUrl="Images/online-invoice-image.png" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="productDemand.aspx" publishTime="03/24/2015 21:59:00" />
+    <file relUrl="Default.aspx" publishTime="03/24/2015 22:20:03" />
+    <file relUrl="Billing.aspx" publishTime="03/24/2015 22:09:08" />
+    <file relUrl="MainMaster.Master" publishTime="03/24/2015 22:26:41" />
+    <file relUrl="Images/logo_marketing.png" publishTime="03/10/2015 21:39:41" />
+    <file relUrl="Images/images (3).jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Login.aspx" publishTime="03/24/2015 18:36:15" />
+    <file relUrl="Images/back.png" publishTime="03/10/2015 21:12:57" />
+    <file relUrl="StoreDetail.aspx" publishTime="03/24/2015 21:37:04" />
+    <file relUrl="bin/eBilling.pdb" publishTime="03/24/2015 22:22:53" />
+    <file relUrl="Images/blogger.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/download.jpg" publishTime="03/10/2015 20:06:43" />
+    <file relUrl="Images/tip_followscroll.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/application.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/middle_banner.jpg" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/tip_centerwindow.js" publishTime="03/10/2015 20:24:12" />
+    <file relUrl="Images/hrms-diagram.jpg" publishTime="03/10/2015 20:06:43" />
+  </publishProfile>
+</publishData>

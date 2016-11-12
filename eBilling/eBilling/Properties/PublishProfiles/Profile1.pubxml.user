@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2015-05-10T09:19:42.0000000+05:30</TimeStampOfAssociatedLegacyPublishXmlFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Billing.aspx">
+      <publishTime>03/24/2015 22:09:08</publishTime>
+    </File>
+    <File Include="bin/eBilling.dll">
+      <publishTime>05/07/2016 12:43:18</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/24/2015 22:20:03</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/10/2015 20:02:19</publishTime>
+    </File>
+    <File Include="Images/acc-tab-bg.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/application.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/back.png">
+      <publishTime>03/10/2015 21:12:57</publishTime>
+    </File>
+    <File Include="Images/blogger.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/blog_title.png">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/download %281%29.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/download.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/ga.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/hrms-diagram.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/human-resources-management.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/images %281%29.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/images %282%29.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/images %283%29.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/images %284%29.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/images %285%29.jpg">
+      <publishTime>03/10/2015 20:06:43</publishTime>
+    </File>
+    <File Include="Images/jquery.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/login_link.jpg">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/logo_marketing.png">
+      <publishTime>03/10/2015 21:39:41</publishTime>
+    </File>
+    <File Include="Images/middle_banner.jpg">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/MooFlow.css">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/MooFlow.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/mootools-beta-1.2b2.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/online-invoice-image.png">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/professional_invoicing.png">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/signup_button.png">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/tip_centerwindow.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/tip_followscroll.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/twitter_icon.png">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/website.css">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Images/wz_tooltip.js">
+      <publishTime>03/10/2015 20:24:12</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/24/2015 18:36:15</publishTime>
+    </File>
+    <File Include="MainMaster.Master">
+      <publishTime>03/24/2015 22:26:41</publishTime>
+    </File>
+    <File Include="productDemand.aspx">
+      <publishTime>03/24/2015 21:59:00</publishTime>
+    </File>
+    <File Include="Scripts/calendar_us.js">
+      <publishTime>03/10/2015 20:06:52</publishTime>
+    </File>
+    <File Include="Store.aspx">
+      <publishTime>03/24/2015 20:27:07</publishTime>
+    </File>
+    <File Include="StoreDetail.aspx">
+      <publishTime>03/24/2015 21:37:04</publishTime>
+    </File>
+    <File Include="Style/calendar.css">
+      <publishTime>03/10/2015 20:07:03</publishTime>
+    </File>
+    <File Include="Style/StyleSheet.css">
+      <publishTime>03/11/2015 20:53:31</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/07/2016 12:43:18</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
