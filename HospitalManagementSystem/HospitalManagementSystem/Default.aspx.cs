@@ -20,34 +20,49 @@ namespace HospitalManagementSystem
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            objdb = new DBConnection();
-            objdeflt=new edefault();
-
-            objdeflt.Pass = txtPassword.Value;
-            objdeflt.UserName = txtUserName.Text;
-
-            
-            objDR = objdb.executeReader(objdeflt, "usp_default");
-
-
-            if (objDR.HasRows)
+            try
             {
-                objDR.Read();
-                if (txtPassword.Value == objDR["Pass"].ToString())
+                objdb = new DBConnection();
+                objdeflt = new edefault();
+
+                objdeflt.Pass = txtPassword.Value;
+                objdeflt.UserName = txtUserName.Text;
+
+
+                objDR = objdb.executeReader(objdeflt, "usp_default");
+
+
+                if (objDR.HasRows)
                 {
-                    Session["UserId"] = objDR["UserId"].ToString();
-                    Response.Redirect("doctors.aspx");
+                    objDR.Read();
+                    if (txtPassword.Value == objDR["Pass"].ToString())
+                    {
+                        Session["UserId"] = objDR["UserId"].ToString();
+                        Response.Redirect("doctors.aspx");
+                    }
+                    else
+                    {
+                        lblMsg.Text = "Invaild UserName And Password";
+                    }
                 }
                 else
                 {
                     lblMsg.Text = "Invaild UserName And Password";
                 }
+
             }
-            else
+            catch (Exception ex)
             {
-                lblMsg.Text = "Invaild UserName And Password";
+                errorLog objErr=new errorLog();
+                objErr.fn_logErr(ex);
             }
+        }
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
 
         }
+       
+    
     }
-}
+    }
