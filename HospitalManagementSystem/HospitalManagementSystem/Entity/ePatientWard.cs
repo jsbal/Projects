@@ -10,9 +10,6 @@ namespace HospitalManagementSystem.Entity
        public int  WardId{get; set;}
        public int PatientId { get; set; }
        public String BedNo { get; set; }
-       public String DateOfAdmit { get; set; }
-       public int DateOfDisch { get; set; }
-       public int Reason { get; set; }
        public int Aflag { get; set; }
 
     }

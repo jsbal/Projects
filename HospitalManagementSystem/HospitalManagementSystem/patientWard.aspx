@@ -78,7 +78,7 @@
             <td width="25%">
                 &nbsp;</td>
             <td style="margin-left: 120px" width="25%">
-                <asp:Label ID="Label5" runat="server" Text="No. of Beds Available"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="NoOfBed"></asp:Label>
             </td>
             <td width="25%">
                 <asp:DropDownList ID="DropDownList1" runat="server">

@@ -14,7 +14,7 @@ namespace HospitalManagementSystem
     {
         DBConnection objConn;
         DataTable dt;
-        ePatientWard objPD;
+        ePatientWard objPW;
         DataSet ds;
          protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,11 +22,11 @@ namespace HospitalManagementSystem
             if (!IsPostBack)
             {
                 objConn = new DBConnection();
-                objPD = new ePatientWard();
+                objPW = new ePatientWard();
                 dt = new DataTable();
                 ds = new DataSet();
-                objPD.Aflag = 2;
-                ds = objConn.executeDataset(objPD, "[PatientWard");
+                objPW.Aflag = 2;
+                ds = objConn.executeDataset(objPW, "[PatientWard");
                 dt = ds.Tables[0];
                 if (dt.Rows.Count > 0)
                 {
@@ -34,7 +34,7 @@ namespace HospitalManagementSystem
                     dt = ds.Tables[0];
                     ddlPatientName.DataSource = dt;
                     ddlPatientName.DataValueField = "PatientId";
-                    ddlPatientName.DataTextField = "PaitentName";
+                    ddlPatientName.DataTextField = "Name";
                     ddlPatientName.DataBind();
                     ddlPatientName.Items.Insert(0, new ListItem("---Select---", "-1"));
 
@@ -52,14 +52,14 @@ namespace HospitalManagementSystem
         {
             objConn = new DBConnection();
             dt = new DataTable();
-            objPD = new ePatientWard();
+            objPW = new ePatientWard();
 
-            objPD.PatientId = Convert.ToInt32(ddlPatientName.SelectedValue);
-            objPD.WardId = Convert.ToInt32(ddlWardNo.SelectedValue);
-            objPD.BedNo = ddlWardNo.SelectedValue;
+            objPW.PatientId = Convert.ToInt32(ddlPatientName.SelectedValue);
+            objPW.WardId = Convert.ToInt32(ddlWardNo.SelectedValue);
+            objPW.BedNo = ddlWardNo.SelectedValue;
            
-
-            dt = objConn.executeDataTable(objPD,  "PatientWard");
+              objPW.Aflag = 1;
+            dt = objConn.executeDataTable(objPW,  "PatientWard");
 
 
         }

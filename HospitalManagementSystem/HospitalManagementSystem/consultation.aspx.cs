@@ -20,6 +20,7 @@ namespace HospitalManagementSystem
         DataSet ds;
 
         protected void Page_Load(object sender, EventArgs e)
+    {  
         {
             if (!IsPostBack)
             {
@@ -51,8 +52,9 @@ namespace HospitalManagementSystem
 
             }
         }
-        
-        
+                
+
+} 
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
@@ -76,3 +78,4 @@ namespace HospitalManagementSystem
     }
     }
 }
+
