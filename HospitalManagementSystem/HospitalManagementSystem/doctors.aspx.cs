@@ -52,6 +52,8 @@ namespace HospitalManagementSystem
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
+            try
+            {
             objdb = new DBConnection();
             objdoc = new eDoctors();
             dt = new DataTable();
@@ -75,6 +77,11 @@ namespace HospitalManagementSystem
             {
                 lblMsg.Text = dt.Rows[0]["Msg"].ToString();
 
+            }
+                catch(Exception ex)
+                {
+                errorLog objErr=new errorLog();
+                objErr.fn_logErr(ex);
             }
         }
 

@@ -52,26 +52,34 @@ namespace HospitalManagementSystem
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
-            objdb = new DBConnection();
-            dt = new DataTable();
-            objeStff = new eStaff();
+            try
+            {
+                objdb = new DBConnection();
+                dt = new DataTable();
+                objeStff = new eStaff();
 
-            objeStff.Name = txtStaffName.Text;
-            objeStff.Address = txtAddress.Text;
-            objeStff.DateOfBirth = txtDateOfBirth.Text;
-            objeStff.State = ddlState.SelectedValue;
-            objeStff.City = ddlCity.SelectedValue;
-            objeStff.MobileNo = txtMobileNo.Text;
-            objeStff.Gender = ddlGender.SelectedValue;
-            objeStff.Specialisation = txtSpecialisation.Text;
-            objeStff.Email = txtEmail.Text;
-            objeStff.Status = txtStatus.Text;
-            objeStff.DateJoinHospital = txtDateOfJoin.Text;
-            objeStff.AFlag = 1;
+                objeStff.Name = txtStaffName.Text;
+                objeStff.Address = txtAddress.Text;
+                objeStff.DateOfBirth = txtDateOfBirth.Text;
+                objeStff.State = ddlState.SelectedValue;
+                objeStff.City = ddlCity.SelectedValue;
+                objeStff.MobileNo = txtMobileNo.Text;
+                objeStff.Gender = ddlGender.SelectedValue;
+                objeStff.Specialisation = txtSpecialisation.Text;
+                objeStff.Email = txtEmail.Text;
+                objeStff.Status = txtStatus.Text;
+                objeStff.DateJoinHospital = txtDateOfJoin.Text;
+                objeStff.AFlag = 1;
 
-            dt = objdb.executeDataTable(objeStff, "usp_Staff");
+                dt = objdb.executeDataTable(objeStff, "usp_Staff");
+
+            }
+            catch (Exception ex)
+            {
+                errorLog objErr = new errorLog();
+                objErr.fn_logErr(ex);
+            }
 
         }
-
-           }
     }
+}

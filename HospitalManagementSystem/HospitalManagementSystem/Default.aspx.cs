@@ -20,7 +20,7 @@ namespace HospitalManagementSystem
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            try
+           try
             {
                 objdb = new DBConnection();
                 objdeflt = new edefault();
@@ -60,7 +60,7 @@ namespace HospitalManagementSystem
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+                    
         }
        
     

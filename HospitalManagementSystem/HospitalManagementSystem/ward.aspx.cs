@@ -26,6 +26,8 @@ namespace HospitalManagementSystem
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
+            try
+            {
             objDB = new DBConnection();
             objeW = new eWard();
             dt=new DataTable();
@@ -38,5 +40,10 @@ namespace HospitalManagementSystem
 
             dt = objDB.executeDataTable(objeW, "usp_Ward");
         }
+            catch(Exception ex)
+                {
+                errorLog objErr=new errorLog();
+                objErr.fn_logErr(ex);
+            }
     }
 }
