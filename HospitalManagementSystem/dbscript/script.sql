@@ -3,7 +3,7 @@ GO
 /****** Object:  Table [dbo].[tblBilling]    Script Date: 25-03-2015 23:52:58 ******/
 SET ANSI_NULLS ON
 GO
-SET QUOTED_IDENTIFIER ON
+SET QUOTED_IDENTIFIER ON     
 GO
 SET ANSI_PADDING ON
 GO
