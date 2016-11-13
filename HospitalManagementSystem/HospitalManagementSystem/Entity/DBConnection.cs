@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Reflection;
 
-namespace HospitalManagementSystem
+namespace HospitalManagementSystem.BAL
 {
     public class DBConnection
     {

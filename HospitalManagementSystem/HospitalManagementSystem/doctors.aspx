@@ -73,7 +73,9 @@
                 <asp:Label ID="Label5" runat="server" Text="Gender"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtGender" runat="server"></asp:TextBox>
+               
+                <asp:DropDownList ID="ddlGender" runat="server" AutoPostBack="True">
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>
@@ -85,7 +87,8 @@
                 <asp:Label ID="Label6" runat="server" Text="State"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtState" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlState" runat="server" AutoPostBack="True">
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>
@@ -97,7 +100,8 @@
                 <asp:Label ID="Label7" runat="server" Text="City"></asp:Label>
             </td>
             <td width="25%">
-                <asp:TextBox ID="txtCity" runat="server"></asp:TextBox>
+                <asp:DropDownList ID="ddlCity" runat="server" AutoPostBack="True">
+                </asp:DropDownList>
             </td>
             <td width="25%">
                 &nbsp;</td>
